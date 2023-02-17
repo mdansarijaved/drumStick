@@ -35,12 +35,12 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     keySound(e.target.innerText);
   });
 }
-document.addEventListener("keypress",(e)=>{
+document.addEventListener("keydown",(e)=>{
   const key=e.key;
  keySound(key);
 })
 
-// function Madharchods(name, age, adress, experience) {
+// function bros(name, age, adress, experience) {
 //   this.name = name;
 //   this.age = age;
 //   this.adress = adress;
@@ -50,11 +50,11 @@ document.addEventListener("keypress",(e)=>{
 //   }
 // }
 
-// var Madharchod1 = new Madharchods(
+// var bro1 = new bros(
 //   "musadiq",
 //   21,
-//   "gand dene wali gali",
+//   "kashmiri mirch",
 //   "13years"
 // );
 
-// console.log(Madharchod1);
+// console.log(bro1);
